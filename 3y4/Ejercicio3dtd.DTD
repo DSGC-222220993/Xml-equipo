@@ -1,0 +1,6 @@
+        <!ELEMENT MenuDesayuno (Plato+)>
+        <!ELEMENT Plato (Nombre, Precio, Descripcion, Calorias)>
+        <!ELEMENT Nombre (#PCDATA)>
+        <!ELEMENT Precio (#PCDATA)>
+        <!ELEMENT Descripcion (#PCDATA)>
+        <!ELEMENT Calorias (#PCDATA)>
