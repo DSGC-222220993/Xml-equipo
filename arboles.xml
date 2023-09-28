@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE arboles [
+        <!ELEMENT arboles (arbol)*>
+        <!ELEMENT arbol (nombreCientifico|nombreComun|vegetacion|altura|formaEstructura|colorEnPrimavera|resistenciaHeladas|colorEnOtoño)*>
+        <!ELEMENT nombreCientifico (#PCDATA)>
+        <!ELEMENT nombreComun (#PCDATA)>
+        <!ELEMENT vegetacion (#PCDATA)>
+        <!ELEMENT altura (#PCDATA)>
+        <!ELEMENT formaEstructura (#PCDATA)>
+        <!ELEMENT colorEnPrimavera (#PCDATA)>
+        <!ELEMENT resistenciaHeladas (#PCDATA)>
+        <!ELEMENT colorEnOtoño (#PCDATA)>
+        ]>
+
+<arboles>
+
+    <arbol>
+
+        <nombreCientifico>Acer monspessulanum</nombreCientifico>
+        <nombreComun>Arce de Montpellier, Arce menor</nombreComun>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>De 6 a 10 metros</altura>
+        <formaEstructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</formaEstructura>
+        <colorEnPrimavera>Haz verde brillante, envés verde blanquecino</colorEnPrimavera>
+        <resistenciaHeladas>Heladas fuertes (hasta -15°C)</resistenciaHeladas>
+
+    </arbol>
+
+    <arbol>
+
+        <nombreCientifico>Olea europoea</nombreCientifico>
+        <nombreComun>Olivo</nombreComun>
+        <vegetacion>Perenne</vegetacion>
+        <altura>De 8 a 15 metros</altura>
+        <formaEstructura>Copa irregular. Tronco principal irregular con bifurcaciones.</formaEstructura>
+
+    </arbol>
+
+    <arbol>
+
+        <nombreCientifico>Ramaje tortuoso</nombreCientifico>
+        <colorEnPrimavera>Haz verde oscuro, envés de verde plateado</colorEnPrimavera>
+        <resistenciaHeladas>Heladas medias (hasta -10°C)</resistenciaHeladas>
+
+    </arbol>
+
+    <arbol>
+
+        <nombreCientifico>Platanus orientalis</nombreCientifico>
+        <nombreComun>Platano</nombreComun>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura>De 20 a 25 metros</altura>
+        <formaEstructura>Copa ovoidal. Tronco principal recto. Ramaje expandido</formaEstructura>
+        <colorEnOtoño>Ocre</colorEnOtoño>
+        <resistenciaHeladas>Heladas fuertes (hasta -20°C)</resistenciaHeladas>
+
+    </arbol>
+
+    <arbol>
+
+        <nombreCientifico>Quercus ilex</nombreCientifico>
+        <nombreComun>Encina</nombreComun>
+        <vegetacion>Perenne</vegetacion>
+        <altura>Entorno a 25 metros</altura>
+        <formaEstructura>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso</formaEstructura>
+        <colorEnPrimavera>Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</colorEnPrimavera>
+        <resistenciaHeladas>Heladas fuertes (hasta -15°C)</resistenciaHeladas>
+
+    </arbol>
+
+</arboles>
